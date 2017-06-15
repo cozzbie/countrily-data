@@ -1,0 +1,27 @@
+{
+  "name": "countrily-data",
+  "version": "1.0.0",
+  "description": "Compiled data for the countrily node lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "node ./data/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cozzbie/countrily-data.git"
+  },
+  "author": "Timi Aiyemo <cozzbie@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cozzbie/countrily-data/issues"
+  },
+  "homepage": "https://github.com/cozzbie/countrily-data#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

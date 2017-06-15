@@ -1,4 +1,4 @@
-# countrily.js
+# countrily-data
 
 Inspired by the work of the authors of [countryjs](https://github.com/progressclaim/countryjs). This is a single file compilation of all the countries data.
 
@@ -17,7 +17,7 @@ cd node_modules/countrily-data
 npm run build
 ```
 
-The Build command builds the data.json file for easy compilation for webpack.
+The Build command builds/rebuilds the index.js file for easy compilation for non nodejs environments.
 
 ## Usage
 

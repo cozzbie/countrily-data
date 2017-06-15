@@ -17,18 +17,6 @@
 //   fileList = require(path.resolve("./build/data.json"));
 
 
-// module.exports = function () {
-//   var totalList = [];
-
-//   _.forEach(fileList, function (file) {
-//     file.ISO[2] = file.ISO.alpha2;
-//     file.ISO[3] = file.ISO.alpha3;
-//     totalList.push(file);
-//   });
-//   return totalList;
-// };
-
-
 var fs = require("fs"),
   path = require('path'),
   glob = require('glob'),

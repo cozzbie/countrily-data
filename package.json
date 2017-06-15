@@ -1,6 +1,6 @@
 {
   "name": "countrily-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compiled data for the countrily node lib",
   "main": "index.js",
   "scripts": {
